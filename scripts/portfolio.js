@@ -28,7 +28,7 @@ aboutButton.addEventListener("click", function () {
 
 contactButton.addEventListener("click", function () {
   document.getElementById("space").innerHTML = `<div class="container">
-      <h1 class="p-1 welcome"> Contact Me </h1>
+      <h1 class="p-2 welcome"> Contact Me </h1>
       
       <form>  
           <div class="mb-3 row animate__animated animate__fadeInDown">
