@@ -20,7 +20,7 @@
   <body>
     <div class="vh-100 vw-100 container-fluid row">
       <div
-        class="text-center col-md-6 d-flex flex-column justify-content-center"
+        class="align-items-center col-md-6 d-flex flex-column justify-content-center"
       >
         <div class="row">
           <div class="col-md-12">
@@ -33,35 +33,42 @@
           </div>
         </div>
 
-        <nav class="text-center font about">
-          <h1 class="name-display">Maea Matugas</h1>
-          <button
-            type="button"
-            class="bi bi-person btn btn-outline-secondary text-light btn-sm"
-            id="about"
-          ></button>
-          <button
-            type="button"
-            class="bi bi-chat-dots btn btn-outline-secondary text-light btn-sm"
-            id="blogs"
-          ></button>
-          <button
-            type="button"
-            class="bi bi-code btn btn-outline-secondary text-light btn-sm"
-            id="project"
-          ></button>
-          <button
-            type="button"
-            class="bi bi-envelope btn btn-outline-secondary text-light btn-sm"
-            id="contact"
-          ></button>
+        <nav>
+          <div class="d-flex flex-column align-items-center font about">
+            <h1 class="name-display">Maea Matugas</h1>
+            <div>
+              <button
+                type="button"
+                class="bi bi-person btn btn-outline-secondary text-light btn-sm"
+                id="about"
+              ></button>
+              <button
+                type="button"
+                class="bi bi-chat-dots btn btn-outline-secondary text-light btn-sm"
+                id="blogs"
+              ></button>
+              <button
+                type="button"
+                class="bi bi-code btn btn-outline-secondary text-light btn-sm"
+                id="project"
+              ></button>
+              <button
+                type="button"
+                class="bi bi-envelope btn btn-outline-secondary text-light btn-sm"
+                id="contact"
+              ></button>
+            </div>
+          </div>
         </nav>
       </div>
 
       <div
-        class="text-center col-md-6 d-flex flex-column justify-content-center"
+        class="position-relative col-md-6 d-flex flex-column justify-content-center"
       >
-        <div class="text-center font pt-5" id="space"></div>
+        <div
+          class="font pt-5 d-flex flex-column justify-content-center align-items-center"
+          id="space"
+        ></div>
       </div>
     </div>
     <script src="scripts/portfolio.js"></script>

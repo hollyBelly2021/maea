@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+*{
+  b
+}
 
 body {
   background-color: rgb(12, 12, 12);
@@ -11,6 +14,7 @@ body {
   border: 6px solid #ffffff;
   margin-right: 13px;
   margin-bottom: 5px;
+  margin-top: 20px;
   background-color: #ffffff;
 }
 
@@ -89,4 +93,9 @@ body {
 
 .row {
   margin-left: 0px;
+}
+
+.pl-2 {
+  padding-left: 30px;
+  padding-bottom: 15px;
 }
