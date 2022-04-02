@@ -64,7 +64,7 @@ contactButton.addEventListener("click", function () {
 
 projectButton.addEventListener("click", function () {
   document.getElementById("space").innerHTML = ` 
-  <div class="padding-1 text-center col-md-12">
+  <div class="padding-1 text-center col-md-9">
   <h1 class=" project-title-size ">Projects</h1>
   </div>
   <div class="row box animate__animated animate__fadeIn  ">

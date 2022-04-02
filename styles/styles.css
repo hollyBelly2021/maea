@@ -34,7 +34,8 @@ body {
 
 .welcome {
   font-family: "Press Start 2P", cursive;
-  font-size: 55px;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 
 .welcome2 {
@@ -114,9 +115,10 @@ body {
 
 .project-title-size {
   font-family: "Press Start 2P", cursive;
-  font-size: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
 }
 
 .padding-1 {
-  padding-left: 10px;
+  padding-left: 15px;
 }
