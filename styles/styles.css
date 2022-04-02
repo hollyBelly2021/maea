@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-*{
-  b
+* {
+  box-sizing: border-box;
 }
 
 body {
@@ -34,8 +34,7 @@ body {
 
 .welcome {
   font-family: "Press Start 2P", cursive;
-  font-size: 60px;
-  word-spacing: 0px;
+  font-size: 55px;
 }
 
 .welcome2 {
@@ -98,4 +97,8 @@ body {
 .pl-2 {
   padding-left: 30px;
   padding-bottom: 15px;
+}
+
+.add-margin {
+  margin-left: 10px;
 }

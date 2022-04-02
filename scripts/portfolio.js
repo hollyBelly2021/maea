@@ -29,7 +29,7 @@ aboutButton.addEventListener("click", function () {
 contactButton.addEventListener("click", function () {
   document.getElementById("space").innerHTML = `
   
-      <h1 class="display-1 p-2 welcome text-center"> Contact Me </h1>
+      <h1 class="welcome text-center p-3 col-md-12"> Contact Me </h1>
       
       <div class="container">
       <form>  
