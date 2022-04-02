@@ -54,7 +54,7 @@ contactButton.addEventListener("click", function () {
              
           </div>
           <div class="d-flex flex-column align-items-center">
-          <button type="submit" class=" text-center btn btn-outline-secondary text-light animate__animated animate__fadeInDown animate__delay-4s"> submit </button>
+          <button type="submit" class=" mb-4 text-center btn btn-outline-secondary text-light animate__animated animate__fadeInDown animate__delay-4s"> submit </button>
           </div>
       </form>
     </div>
@@ -64,106 +64,35 @@ contactButton.addEventListener("click", function () {
 
 projectButton.addEventListener("click", function () {
   document.getElementById("space").innerHTML = ` 
-  <h1 class="p-3 welcome ">Projects</h1>
-  <div class="row box animate__animated animate__fadeIn">
+  <div class="text-center col-md-12">
+  <h1 class="p-3 project-title-size ">Projects</h1>
+  </div>
+  <div class="row box animate__animated animate__fadeIn  ">
     <!-- start of col-md- 12 -->
-    <div class="col-md-12 p-2 ">
+    <div class="col-md-12 p-2  ">
       <div class="card-group gap-3">
         <div class="card bg-dark border-white">
-          <div class="card-body">
+          <div class="card-body d-flex flex-row add-gap">
+            <div class="d-none d-md-block  ">
             <img
-              class="float-start img-thumbnail"
+              class="img-thumbnail"
               src="assets/thumbnail.jpeg"
             />
+            </div>
+            <div class="col-md-6">
             <h5 class="card-title pt-5">Interactive Story</h5>
             <p clas="text-box">
               Some quick example text to build on the card title and
               make up the bulk of the card's content.
             </p>
             <button class="btn btn-primary">Go somewhere</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <!--end of col-md-12-->
-    <!-- start of col-md- 12 -->
-    <div class="col-md-12 p-2">
-      <div class="card-group gap-3">
-        <div class="card bg-dark border-white">
-          <div class="card-body">
-            <img
-              class="float-start img-thumbnail"
-              src="assets/thumbnail3.png"
-            />
-            <h5 class="card-title pt-5">Mini Goals</h5>
-            <p clas="card-text">
-              Some quick example text to build on the card title and
-              make up the bulk of the card's content.
-            </p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--end of col-md-12-->
-    <!-- start of col-md- 12 -->
-    <div class="col-md-12 p-2">
-      <div class="card-group gap-3">
-        <div class="card bg-dark border-white">
-          <div class="card-body">
-            <img
-              class="float-start img-thumbnail"
-              src="assets/thumbnail4.png"
-            />
-            <h5 class="card-title pt-5">Trivia Quiz</h5>
-            <p clas="card-text">
-              Some quick example text to build on the card title and
-              make up the bulk of the card's content.
-            </p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--end of col-md-12-->
-    <div class="col-md-12 p-2">
-      <div class="card-group gap-3">
-        <div class="card bg-dark border-white">
-          <div class="card-body">
-            <img
-              class="float-start img-thumbnail"
-              src="assets/thumbnail4.png"
-            />
-            <h5 class="card-title pt-5">Trivia Quiz</h5>
-            <p clas="card-text">
-              Some quick example text to build on the card title and
-              make up the bulk of the card's content.
-            </p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--end of col-md-12-->
-    <div class="col-md-12 p-2">
-      <div class="card-group gap-3">
-        <div class="card bg-dark border-white">
-          <div class="card-body">
-            <img
-              class="float-start img-thumbnail"
-              src="assets/thumbnail4.png"
-            />
-            <h5 class="card-title pt-5">Trivia Quiz</h5>
-            <p clas="card-text">
-              Some quick example text to build on the card title and
-              make up the bulk of the card's content.
-            </p>
-            <button class="btn btn-primary">Go somewhere</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--end of col-md-12-->
+   
   </div>
   <!-- end of first div -->
   `;

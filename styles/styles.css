@@ -102,3 +102,17 @@ body {
 .add-margin {
   margin-left: 10px;
 }
+
+.img-thumbnail {
+  height: 200px;
+  width: 200px;
+}
+
+.add-gap {
+  gap: 20px;
+}
+
+.project-title-size {
+  font-family: "Press Start 2P", cursive;
+  font-size: 50px;
+}
